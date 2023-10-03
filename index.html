@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="submit-form" action="" method="post">
+        <label>Введите имя: 
+            <input class="submit-form__input" type="text" autofocus>
+        </label> 
+        <label>Введите email: 
+            <input class="submit-form__input" type="email">
+        </label> 
+        <label>Введите пароль: 
+            <input class="submit-form__input" type="password">
+        </label> 
+        <label>Введите возраст: 
+            <input class="submit-form__input" type="number">
+        </label> 
+        <label>Введите дату рождения: 
+            <input class="submit-form__input" type="date">
+        </label> 
+        <label>Введите номер телефона: 
+            <input class="submit-form__input" type="tel">
+        </label>
+        <label for="volume">Звук
+            <input type="range" id="volume" name="volume" min="0" max="11" />
+        </label> 
+        
+        <label class="checkbox">
+            <input type="checkbox" />
+            <div class="checkbox__text">Я переключаю чекбокс</div>
+        </label>
+    </form>
+</body>
+</html>
